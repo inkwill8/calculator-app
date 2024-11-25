@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="/script.js" defer></script>
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div id="container">
+      <input id="display" type="text" readonly />
+      <div class="btn-wrapper">
+        <div class="row">
+          <button id="clear" type="button">AC</button>
+          <button type="button">DEL</button>
+          <button type="button" aria-label="decimal">.</button>
+          <button type="button" class="operator" aria-label="division">/</button>
+        </div>
+        <div class="row">
+          <button type="button" class="number">7</button>
+          <button type="button" class="number">8</button>
+          <button type="button" class="number">9</button>
+          <button type="button" class="operator" aria-label="multiplication">*</button>
+        </div>
+        <div class="row">
+            <button type="button" class="number">4</button>
+            <button type="button" class="number">5</button>
+            <button type="button" class="number">6</button>
+            <button type="button" class="operator" aria-label="subtraction">-</button>
+        </div>
+        <div class="row">
+            <button type="button" class="number">1</button>
+            <button type="button" class="number">2</button>
+            <button type="button" class="number">3</button>
+            <button type="button" class="operator" aria-label="addition">+</button>
+        </div>
+        <div class="row">
+        <button type="button" class="number">0</button>
+        <button type="button" class="number">00</button>
+        <button id="equals" type="button" class="operator" aria-label="equals">=</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
